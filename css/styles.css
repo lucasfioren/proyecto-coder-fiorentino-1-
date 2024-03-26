@@ -1,8 +1,9 @@
+
+/*basico*/
 *{
     margin:0;
     padding:0;
    
-    text-justify: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -12,18 +13,42 @@ header{
 }
 /* imagen principal perro comiendo */
 
+body{
+    position: relative;
+    padding-bottom:7rem ;
+    min-height: 100vh;
+}
+
 #perro-banner{
    max-width: 100px;
 }
 
 
   footer{  
-    padding: 0;
-    outline:0;
-    
     width: 100%;
+    position: absolute;
+    bottom:0;
    
 }
+
+h2{
+    text-decoration-color:#387445;
+    align-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    
+}
+h5 {
+font-weight: bold;
+}
+#perro-comiendo{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
 .navbar-brand{
     color: white;
 }
@@ -31,15 +56,14 @@ header{
     background-color: #387445b4;
 }
 
-.card1{
-    width: 100px;
-    height:fit-content;
+.copyright{
+    font-size: 10px;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    
 }
-
 
 .card-text{
     font-size: 10px;
-}
-h5{
-    font-size:15px; 
 }

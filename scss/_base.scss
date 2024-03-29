@@ -4,6 +4,15 @@
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+body{
+    background-image: url("../img/background-fortinut.png")  ;
+    background-size: 100px;
+    
+    position: relative;
+    padding-bottom:7rem ;
+    min-height: 100vh;
+    
+}
 .bg-green{
     background-color: #387445b4;
 } //* pasar a variable*//

@@ -1,6 +1,15 @@
 header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color:  #387445b4;
     margin-bottom: 5%;
+    max-height: 20%;
+    img{
+        
+       max-width:110px;
+        
+    }
 }
 .navbar-brand{
     color: rgb(0, 0, 0);

@@ -9,16 +9,21 @@ body{
     background-size: 100px;
     
     position: relative;
-    padding-bottom:7rem ;
+    padding-bottom:8rem ;
     min-height: 100vh;
-    
 }
 footer{  
-    font-size: wrem;
+    
     width: 100%;
+    max-height: 5%;
     position: absolute;
     bottom:0;
-   
+    ul{
+        text-decoration: none;
+    }
+    img{
+        max-width:100px;
+    }
 }
 .copyright{
     font-size: 10px;
@@ -33,15 +38,14 @@ footer{
 h1{
     
     color: #ffffff;
-    text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight:bold;
     text-shadow: 2px 2px #000000;
-    background-color: #38744541 ;
-    background:linear-gradient(120deg, white 0%, #38744541 20%);
+    background-color: #3874458f ;
+    background:linear-gradient(120deg, white 0%, #3874458f 20%);
     padding-top:2%;
     padding-bottom: 2%;
-    margin-bottom: 4%;
+    margin-bottom: 10%;
 }
 h2{
     color: #ffffff;
@@ -50,7 +54,7 @@ h2{
     font-weight:bold;
     text-shadow: 2px 2px #000000;
     background-color: #38744541 ;
-    background:linear-gradient(120deg, white 0%, #38744541 20%);
+    background:linear-gradient(300deg, white 0%, #38744541 20%);
     padding-top:2%;
     padding-bottom: 2%;
     margin-bottom: 4%;
@@ -67,34 +71,39 @@ font-weight: bold;
     opacity: 0.85;
     max-width: 100%;
     width: 600px;
-   
+    
     
 }
 .foto{
     background-image: url("../img/perro-comiendo-.jpg.webp");
 }
 
-.card-text{
-    font-size: 10px;
+.card{
+    background: none;
+    max-height: 100vh;
+    align-items:center;
+    margin:auto;
 }
-.producto{
-    text-align: center;
-    align-items: center;
+    .card-text{
+    font-size: 2vw;
 }
+
+
 
 .img-producto{
     max-width:100% ;
     width: 300px;
 }
-.producto-title{
+.producto{
+    .producto-title{
     text-align: center;
     padding-bottom: 1%;
 }
-.producto-body{
+    .producto-body{
     font-size: large;
     border: #000000;
 }
-.pago-button{
+}.comprar-button{
     background-color: #47af5e;
     border-radius:10%;
     margin-bottom: 50px;

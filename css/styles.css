@@ -1,126 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.bg-green {
+  background-color: rgba(56, 116, 69, 0.7058823529);
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px #000000;
+  background-color: rgba(56, 116, 69, 0.2549019608);
+  background: linear-gradient(120deg, white 0%, rgba(56, 116, 69, 0.2549019608) 20%);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 4%;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px #000000;
+  background-color: rgba(56, 116, 69, 0.2549019608);
+  background: linear-gradient(120deg, white 0%, rgba(56, 116, 69, 0.2549019608) 20%);
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 4%;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.img-parrafos {
+  padding-top: 0;
+  padding-bottom: 10%;
+  padding-left: 0;
+  padding-right: 0;
+  opacity: 0.85;
+  max-width: 100%;
+  width: 600px;
+}
+
+.foto {
+  background-image: url("../img/perro-comiendo-.jpg.webp");
+}
+
+/*
+ul,ol
+variables
+a
+img
+icon
+h1*/
+header {
+  background-color: rgba(56, 116, 69, 0.7058823529);
+  margin-bottom: 5%;
+}
+
+.navbar-brand {
+  color: rgb(0, 0, 0);
+}
 
 /*basico*/
-*{
-    margin:0;
-    padding:0;
-    outline:0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
 }
 
-
-header{
-    background-color:  #387445b4;
-    margin-bottom: 5%;
-}
 /* imagen principal perro comiendo */
-
-body{
-    background-image: url("../img/background-fortinut.png")  ;
-    background-size: 100px;
-    
-    position: relative;
-    padding-bottom:7rem ;
-    min-height: 100vh;
-    
-}
-
-
-
-  footer{  
-    font-size: wrem;
-    width: 100%;
-    position: absolute;
-    bottom:0;
-   
-}
-h1{
-    
-    color: #ffffff;
-    text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight:bold;
-    text-shadow: 2px 2px #000000;
-    background-color: #38744541 ;
-    background:linear-gradient(120deg, white 0%, #38744541 20%);
-    padding-top:2%;
-    padding-bottom: 2%;
-    margin-bottom: 4%;
-}
-h2{
-    color: #ffffff;
-    text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight:bold;
-    text-shadow: 2px 2px #000000;
-    background-color: #38744541 ;
-    background:linear-gradient(120deg, white 0%, #38744541 20%);
-    padding-top:2%;
-    padding-bottom: 2%;
-    margin-bottom: 4%;
-}
-h5 {
-font-weight: bold;
-}
-.navbar-brand{
-    color: rgb(0, 0, 0);
-}
-.bg-green{
-    background-color: #387445b4;
-}
-
-.copyright{
-    font-size: 10px;
-    position: absolute;
-    bottom:0;
-    right: 0;
-}
-
-
-.img-parrafos{
-    padding-top: 0;
-    padding-bottom: 10%;
-    padding-left: 0;
-    padding-right: 0;
-    opacity: 0.85;
-    max-width: 100%;
-    width: 600px;
-   
-    
-}
-.foto{
-    background-image: url("../img/perro-comiendo-.jpg.webp");
-}
 /* segundo html exclusivamente*/
 
-.card-text{
-    font-size: 10px;
-}
-.producto{
-    text-align: center;
-    align-items: center;
-}
-
-.img-producto{
-    max-width:100% ;
-    width: 300px;
-}
-.producto-title{
-    text-align: center;
-    padding-bottom: 1%;
-}
-.producto-body{
-    font-size: large;
-    border: #000000;
-}
-.pago-button{
-    background-color: #47af5e;
-    border-radius:10%;
-    margin-bottom: 50px;
-    font-weight: bold;
-    padding: 0.5%;
-}
-.precio-producto{
-    font-weight: bold;
-    font-size: large;
-}
+/*# sourceMappingURL=styles.css.map */

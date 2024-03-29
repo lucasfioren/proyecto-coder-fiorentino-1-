@@ -13,6 +13,20 @@ body{
     min-height: 100vh;
     
 }
+footer{  
+    font-size: wrem;
+    width: 100%;
+    position: absolute;
+    bottom:0;
+   
+}
+.copyright{
+    font-size: 10px;
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+
 .bg-green{
     background-color: #387445b4;
 } //* pasar a variable*//
@@ -59,6 +73,40 @@ font-weight: bold;
 .foto{
     background-image: url("../img/perro-comiendo-.jpg.webp");
 }
+
+.card-text{
+    font-size: 10px;
+}
+.producto{
+    text-align: center;
+    align-items: center;
+}
+
+.img-producto{
+    max-width:100% ;
+    width: 300px;
+}
+.producto-title{
+    text-align: center;
+    padding-bottom: 1%;
+}
+.producto-body{
+    font-size: large;
+    border: #000000;
+}
+.pago-button{
+    background-color: #47af5e;
+    border-radius:10%;
+    margin-bottom: 50px;
+    font-weight: bold;
+    padding: 0.5%;
+}
+.precio-producto{
+    font-weight: bold;
+    font-size: large;
+}
+
+
 /*
 ul,ol
 variables
